@@ -119,3 +119,30 @@ let fruits = ["mango", "banana", "orange"];
 fruits[2] = "grape";
 
 console.log("fruits", fruits);
+
+let fruitss = ["apple", "banana", "orange", "mango"];
+let removed = fruitss.splice(0, 2);
+
+console.log(fruitss);   // ["apple", "mango"]
+console.log(removed);  // ["banana", "orange"]
+
+let fruitz = ["apple", "mango", "pinapple", "guava"];
+
+console.log("before add", fruitz); // ["apple", "mango"]
+
+fruitz.splice(0, 0, "banana", "orange");
+
+console.log("after add", fruitz); // ["apple", "banana", "orange", "mango"]
+
+
+let cars = ["BMW", "Volvo", "Saab", "Ford", "Fiat", "Audi", "Toyota", "Honda", "Chevrolet", "Kia"];
+
+//map
+cars.map((mottocar, position) => {
+  console.log(`buuum ${position}`, mottocar)
+})
+
+//for each
+cars.forEach((mottocar, position) => {
+  console.log(`buuum ${position}`, mottocar)
+})
