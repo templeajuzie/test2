@@ -146,3 +146,6 @@ cars.map((mottocar, position) => {
 cars.forEach((mottocar, position) => {
   console.log(`buuum ${position}`, mottocar)
 })
+
+
+const filt = cars.filter()
