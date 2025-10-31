@@ -2,6 +2,8 @@ let input = document.getElementById("input");
 let btn = document.getElementById("btn");
 let all = document.getElementById("all");
 
+
+
 // let li = document.createElement("li");
 
 let todoITEM = [];
